@@ -1,0 +1,15 @@
+{{!-- Consulta ao banco de dados (CRUD) --}}
+<h1>Produtos cadastrados</h1>
+
+<div class="prod-container">
+    {{#each listar}}
+     
+    <strong> #{{this.id}} </strong> -  
+    <a href="/prod/{{this.id}}">{{nome}}</a> - qtd em estoque: {{quantidade}}  <br>
+
+    {{/each}}
+
+</div>
+
+
+
