@@ -1,4 +1,4 @@
-//É preciso instalar o handlesbar também: npm install express-handlebars.
+//É preciso instalar o handlebars também: npm install express-handlebars.
 
 //Importando o express:
 var express = require('express');
