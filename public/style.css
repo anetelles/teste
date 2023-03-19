@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap");
+.corpo {
+  background-color: #121212;
+  color: #eef2f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50;
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  gap: 20px;
+  font-family: "Source Code Pro", monospace;
+}
+
+.inputs2 {
+  padding: 10px;
+  width: 25em;
+}
+
+input::-moz-placeholder {
+  font-family: "Source Code Pro", monospace;
+}
+
+input::placeholder {
+  font-family: "Source Code Pro", monospace;
+}
+
+p {
+  font-family: "Source Code Pro", monospace;
+}
+
+.lista {
+  font-family: "Source Code Pro", monospace;
+}/*# sourceMappingURL=style.css.map */
